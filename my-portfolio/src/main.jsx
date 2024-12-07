@@ -5,5 +5,4 @@ import Navbar from './components/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <App />
-
 )

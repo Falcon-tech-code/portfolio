@@ -1,15 +1,19 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Page from './components/Page'
+import MyBioPage from './components/MyBioPage'
+import ResumePage from './components/ResumePage'
 
 function App() {
 
 
   return (
     <div className='App'>
-      <div className='bg-[url(./assest/bg-photo.jpeg)]'>
+      <div>
         <Navbar />
         <Page />
+        <MyBioPage />
+        <ResumePage />
       </div>
     </div >
   )

@@ -1,0 +1,46 @@
+.bg-section {
+    background-image: url('../assets/my-bio-bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: -1;
+}
+
+#content-section {
+    z-index: 1;
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .bg-section {
+      background-image: none;
+  }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .bg-section {
+      background-image: none;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .bg-section {
+      background-image: none;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    .bg-section {
+      background-image: none;
+  }
+
+}
