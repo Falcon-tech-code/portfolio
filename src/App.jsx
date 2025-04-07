@@ -4,8 +4,8 @@ function App() {
 
 
     return (
-        <div className='mt-3'>
-            <aside className='md:flex-start'>
+        <div>
+            <aside className='md:max-w-[300px] md:max-h-fit md:bg-gray-900 py-5 md:relative'>
                 <div className='flex flex-col items-center justify-center gap-6'>
                     <div className='flex justify-center items-center'>
                         <img className='transition duration-300 ease-in-out w-[200px] hover:shadow-lg shadow-amber-200 hover:scale-110 h-[200px] rounded-full border-3 border-amber-400' src="../src/assets/cv_photo.jpg" alt="cv_photo" />
@@ -47,10 +47,12 @@ function App() {
                         </div>
                     </a>
                 </nav>
-                <div>
-
-                </div>
             </aside>
+            <section className='text-white'>
+                <div>
+                    <h1>About</h1>
+                </div>
+            </section>
         </div>
     )
 }
