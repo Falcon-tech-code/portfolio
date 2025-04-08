@@ -1,6 +1,10 @@
 import React from 'react';
 import { RxTriangleRight } from "react-icons/rx";
 import { FaCircle } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 function App() {
 
 
@@ -24,6 +28,11 @@ function App() {
                     </a>
                     <a className='p-2 px-4 group hover:bg-pink-800 rounded-xl transition duration-500' href="#experience">
                         Experience
+                        <div className='bg-amber-200 h-[2px] w-0 group-hover:w-full hover:bg-gray-200 transition-all duration-500'>
+                        </div>
+                    </a>
+                    <a className='p-2 px-4 group hover:bg-pink-800 rounded-xl transition duration-500' href="#projects">
+                        Projects
                         <div className='bg-amber-200 h-[2px] w-0 group-hover:w-full hover:bg-gray-200 transition-all duration-500'>
                         </div>
                     </a>
@@ -63,7 +72,7 @@ function App() {
                 <div id='experience' className='flex flex-col gap-6 mt-6'>
                     <h1 className='text-amber-400 text-3xl font-bold'>Experience</h1>
                     <div className='flex flex-row gap-3'>
-                        <FaCircle className='text-5xl' />
+                        <FaCircle className='mt-5 text-xl' />
                         <div className='bg-gray-900 p-4 rounded-2xl'>
                             <h2 className='text-amber-400 font-bold text-xl'>Freelance Frontend Developer</h2>
                             <h3 className='text-amber-200 font-thin text-lg'>DesignStorm Software</h3>
@@ -88,10 +97,14 @@ function App() {
                                 <RxTriangleRight className='mt-2' />
                                 <p className='text-gray-400 text-lg'>SEO optimization</p>
                             </div>
+                            <div className='mt-2 flex flex-row'>
+                                <RxTriangleRight className='mt-1' />
+                                <a target='_blank' href="https://designstormyazilim.com/">View DesignStorm Web Site</a>
+                            </div>
                         </div>
                     </div>
                     <div className='flex flex-row gap-3'>
-                        <FaCircle className='text-5xl' />
+                        <FaCircle className='mt-5 text-2xl' />
                         <div className='bg-gray-900 p-4 rounded-2xl'>
                             <h2 className='text-amber-400 font-bold text-xl'>Intern Frontend Developer</h2>
                             <h3 className='text-amber-200 font-thin text-lg'>Srce Tech</h3>
@@ -116,10 +129,20 @@ function App() {
                                 <RxTriangleRight className='mt-2' />
                                 <p className='text-gray-400 text-lg'>Web Development</p>
                             </div>
+                            <div className='flex flex-col mt-2'>
+                                <div className='flex flex-row'>
+                                    <RxTriangleRight className='mt-1' />
+                                    <a target='_blank' href="https://www.e12.com.tr/">View e12 landing page</a>
+                                </div>
+                                <div className='flex flex-row'>
+                                    <RxTriangleRight className='mt-1' />
+                                    <a target='_blank' href="https://hepsiburadaclone.netlify.app/">View Hepsiburada clone project</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className='flex flex-row gap-3'>
-                        <FaCircle className='text-5xl' />
+                        <FaCircle className='mt-5 text-xl' />
                         <div className='bg-gray-900 p-4 rounded-2xl'>
                             <h2 className='text-amber-400 font-bold text-xl'>Frontend Developer</h2>
                             <h3 className='text-amber-200 font-thin text-lg'>Minstrel Art Center</h3>
@@ -148,8 +171,15 @@ function App() {
                                 <RxTriangleRight className='mt-2' />
                                 <p className='text-gray-400 text-lg'>SEO Optimization</p>
                             </div>
+                            <div className='mt-2 flex flex-row'>
+                                <RxTriangleRight className='mt-1' />
+                                <a target='_blank' href="https://minstrelsanat.com/">View Minstrel Art Center Web Site</a>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div id='projects' className='flex flex-col gap-6 mt-6'>
+
                 </div>
                 <div id='education' className='flex flex-col gap-6 mt-6'>
                     <h1 className='text-amber-400 text-3xl font-bold'>Education</h1>
@@ -169,22 +199,59 @@ function App() {
                 </div>
                 <div id='tech_skills' className='flex flex-col gap-6 mt-6'>
                     <h1 className='text-amber-400 text-3xl font-bold'>Tech Skills</h1>
-                    <div className='flex flex-col'>
-                        <div className='flex flex-row justify-around rounded-2xl'>
-                            <div className='flex bg-gray-900 p-4 rounded-2xl w-[220px] align-center justify-center'>
-                                <h2 className='text-amber-400 font-bold text-xl'>Typescript</h2>
-                            </div>
-                            <div className='flex bg-gray-900 p-4 rounded-2xl w-[220px] align-center justify-center'>
-                                <h2 className='text-amber-400 font-bold text-xl'>Redux</h2>
+                    <div className='md:flex md:flex-row md:flex-wrap gap-5 flex flex-col flex-nowrap'>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl font-bold'>Typescript</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>Redux</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>React.js</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>TailwindCSS</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>Javascript</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>Bootstrap</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>SEO Optimization</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>Google Advertising</h2>
+                        </div>
+                        <div className='bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <h2 className='text-amber-400 text-xl rounded-2xl font-bold'>Web Development</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id='contact' className='flex flex-col mt-6 gap-6'>
+                    <h1 className='text-amber-400 text-3xl font-bold'>Contact</h1>
+                    <div className='md:flex md:flex-row md:flex-wrap gap-5 flex flex-col flex-nowrap'>
+                        <div className='md:flex md:flex-row md:flex-wrap gap-5 flex flex-col flex-nowrap'>
+                            <div className='flex flex-row gap-2 bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                                <IoMdMail className='mt-[7px] text-amber-200' />
+                                <h2 className='text-amber-200 text-lg rounded-2xl font-thin'>hsn.dev@hotmail.com</h2>
                             </div>
                         </div>
-                        <div>
-                            <div></div>
-                            <div></div>
+                        <div className='flex flex-row gap-2 bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                            <FaPhoneAlt className='mt-[7px] text-amber-200' />
+                            <h2 className='text-amber-200 text-lg rounded-2xl font-thin'>(+90) 538 092 92 17</h2>
                         </div>
-                        <div>
-                            <div></div>
-                            <div></div>
+
+                        <div className='md:flex md:flex-row md:flex-wrap gap-5 flex flex-col flex-nowrap'>
+                            <a target='_blank' href='https://www.linkedin.com/in/hasan-emre-karabacak-10155522a/' className='flex flex-row gap-3 bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                                <FaLinkedin className='mt-[7px] text-amber-200' />
+                                <a target='_blank' href='https://www.linkedin.com/in/hasan-emre-karabacak-10155522a/' className='text-amber-200 text-lg rounded-2xl font-thin'>LinkedIn</a>
+                            </a>
+                            <a target='_blank' href='https://github.com/Falcon-tech-code' className='flex flex-row gap-3 bg-gray-900 p-4 rounded-2xl hover:scale-105 transition duration-300 hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-400 sm:w-full md:w-[400px] lg:w-[300px] xl:w-[200px] 2xl:w-[200px]'>
+                                <FaGithub className='mt-[7px] text-amber-200' />
+                                <a target='_blank' href='https://github.com/Falcon-tech-code' className='text-amber-200 text-lg rounded-2xl font-thin'>Github</a>
+                            </a>
                         </div>
                     </div>
                 </div>
