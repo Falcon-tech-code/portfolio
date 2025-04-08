@@ -179,7 +179,7 @@ function App() {
                     </div>
                 </div>
                 <div id='projects' className='flex flex-col gap-6 mt-6'>
-
+                    
                 </div>
                 <div id='education' className='flex flex-col gap-6 mt-6'>
                     <h1 className='text-amber-400 text-3xl font-bold'>Education</h1>
