@@ -16,7 +16,7 @@ function App() {
             <aside className='md:fixed md:flex md:flex-col md:w-[300px] md:h-screen md:bg-gray-900 py-5'>
                 <div className='flex flex-col items-center justify-center gap-6'>
                     <div className='flex justify-center items-center'>
-                        <img className='transition duration-300 ease-in-out w-[200px] hover:shadow-lg shadow-amber-200 hover:scale-110 h-[200px] rounded-full border-3 border-amber-400' src="../src/assets/cv_photo.jpg" alt="cv_photo" />
+                        <img className='transition duration-300 ease-in-out w-[200px] hover:shadow-lg shadow-amber-200 hover:scale-110 h-[200px] rounded-full border-3 border-amber-400' src="../public/images/cv_photo.jpg" alt="cv_photo" />
                     </div>
                     <div className='text-amber-400 flex flex-col items-center justify-center'>
                         <h1 className='text-2xl font-bold'>Hasan Emre Karabacak</h1>
@@ -234,7 +234,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/EasyRecipe">View Easy Recipe Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../src/assets/easy_recipe.png" alt="easy_recipe" />
+                            <img src="../public/images/easy_recipe.png" alt="easy_recipe" />
                         </div>
                     </div>
                     <div className='flex flex-col bg-gray-900 p-4 rounded-2xl'>
@@ -275,7 +275,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/filmflixplus">View Filmflix+ Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../src/assets/filmflixplus.png" alt="filmflixplus" />
+                            <img src="../public/images/filmflixplus.png" alt="filmflixplus" />
                         </div>
                     </div>
                     <div className='flex flex-col bg-gray-900 p-4 rounded-2xl'>
@@ -320,7 +320,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/apple_website">View Iphone 15 Pro Page Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../src/assets/iphone15pro.png" alt="iphone15pro" />
+                            <img src="../public/images/iphone15pro.png" alt="iphone15pro" />
                         </div>
                     </div>
                     <div className='flex flex-col bg-gray-900 p-4 rounded-2xl'>
@@ -361,7 +361,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/e-commerce">View Hepsiburada Clone Page Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../src/assets/hepsiburadaclone.png" alt="hepsiburadaclone" />
+                            <img src="../public/images/hepsiburadaclone.png" alt="hepsiburadaclone" />
                         </div>
                     </div>
                 </div>
