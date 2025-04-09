@@ -16,7 +16,7 @@ function App() {
             <aside className='md:fixed md:flex md:flex-col md:w-[300px] md:h-screen md:bg-gray-900 py-5'>
                 <div className='flex flex-col items-center justify-center gap-6'>
                     <div className='flex justify-center items-center'>
-                        <img className='transition duration-300 ease-in-out w-[200px] hover:shadow-lg shadow-amber-200 hover:scale-110 h-[200px] rounded-full border-3 border-amber-400' src="../public/images/cv_photo.jpg" alt="cv_photo" />
+                        <img className='transition duration-300 ease-in-out w-[200px] hover:shadow-lg shadow-amber-200 hover:scale-110 h-[200px] rounded-full border-3 border-amber-400' src="/images/cv_photo.jpg" alt="cv_photo" />
                     </div>
                     <div className='text-amber-400 flex flex-col items-center justify-center'>
                         <h1 className='text-2xl font-bold'>Hasan Emre Karabacak</h1>
