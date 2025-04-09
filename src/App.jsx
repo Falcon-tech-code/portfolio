@@ -234,7 +234,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/EasyRecipe">View Easy Recipe Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../public/images/easy_recipe.png" alt="easy_recipe" />
+                            <img src="/images/easy_recipe.png" alt="easy_recipe" />
                         </div>
                     </div>
                     <div className='flex flex-col bg-gray-900 p-4 rounded-2xl'>
@@ -275,7 +275,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/filmflixplus">View Filmflix+ Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../public/images/filmflixplus.png" alt="filmflixplus" />
+                            <img src="/images/filmflixplus.png" alt="filmflixplus" />
                         </div>
                     </div>
                     <div className='flex flex-col bg-gray-900 p-4 rounded-2xl'>
@@ -320,7 +320,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/apple_website">View Iphone 15 Pro Page Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../public/images/iphone15pro.png" alt="iphone15pro" />
+                            <img src="/images/iphone15pro.png" alt="iphone15pro" />
                         </div>
                     </div>
                     <div className='flex flex-col bg-gray-900 p-4 rounded-2xl'>
@@ -361,7 +361,7 @@ function App() {
                             <a target='_blank' href="https://github.com/Falcon-tech-code/e-commerce">View Hepsiburada Clone Page Github</a>
                         </div>
                         <div className='mt-2 flex flex-row'>
-                            <img src="../public/images/hepsiburadaclone.png" alt="hepsiburadaclone" />
+                            <img src="/images/hepsiburadaclone.png" alt="hepsiburadaclone" />
                         </div>
                     </div>
                 </div>
