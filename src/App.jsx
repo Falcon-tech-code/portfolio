@@ -23,7 +23,7 @@ function App() {
                         <h2 className='text-xl font-thin text-amber-100'>Software Developer</h2>
                     </div>
                 </div>
-                <nav className='flex flex-col text-2xl font-bold text-amber-400 gap-6 rounded-xl p-4'>
+                <nav className='flex flex-col text-2xl font-bold text-amber-400 gap-6 rounded-xl p-4 items-center justify-center'>
                     <a className='p-2 px-4 group hover:bg-pink-800 rounded-xl transition duration-500' href="#about">
                         About
                         <div className='bg-amber-200 h-[2px] w-0 group-hover:w-full hover:bg-gray-200 transition-all duration-500'>
